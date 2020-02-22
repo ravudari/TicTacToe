@@ -37,7 +37,6 @@ public class Main {
 		while (true) {
 			System.out.print("Enter a number(1-9): ");
 			int number = readUserNumberFromKB();
-
 			if (number < 1 || number > 9) {
 				System.out.println("ERROR: You've Entered Invalid Number.");
 				continue;
